@@ -1,4 +1,4 @@
-public class runningSumOf1dArraySolution {
+public class RunningSumOf1dArraySolution {
     public int[] runningSum(int[] nums) {
         int[] result = new int[nums.length];
         int temp = 0;
