@@ -1,4 +1,4 @@
-public class medianOfTwoSortedArraysSolution {
+public class MedianOfTwoSortedArraysSolution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         double result = 0;
         int[] sortedArray = merge(nums1, nums2);
