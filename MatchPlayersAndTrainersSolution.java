@@ -1,4 +1,4 @@
-public class matchPlayersAndTrainersSolution {
+public class MatchPlayersAndTrainersSolution {
     public int matchPlayersAndTrainers(int[] players, int[] trainers) {
         Arrays.sort(players);
         Arrays.sort(trainers);
