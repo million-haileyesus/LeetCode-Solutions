@@ -1,4 +1,4 @@
-public class containsDuplicateSolution {
+public class ContainsDuplicateSolution {
     public boolean containsDuplicate(int[] nums) {
         boolean hasDuplicate = false;
         Arrays.sort(nums);
