@@ -1,4 +1,4 @@
-public class myPowSolution {
+public class MyPowSolution {
     public double myPow(double x, int n) {
         double result = 1.0;
         if(n > 0) {
