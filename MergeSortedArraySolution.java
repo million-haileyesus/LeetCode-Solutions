@@ -1,4 +1,4 @@
-public class mergeSortedArraySolution {
+public class MergeSortedArraySolution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int[] result = new int[m+n];
         int count = 0;
