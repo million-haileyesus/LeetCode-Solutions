@@ -1,4 +1,4 @@
-public static int is(String s, int k) {
+public static int SumOfDigitsOfStringAfterConvertSolution(String s, int k) {
 		String res = "";
 		int result = 0;
 		int size = s.length();
@@ -11,7 +11,7 @@ public static int is(String s, int k) {
 			int si = res.length();
 			result = 0;
 			for (int j = 0; j < si; j++) {
-        int rank = res.charAt(j) - '0';
+				int rank = res.charAt(j) - '0';
 				result += rank;
 			}
 			res = Integer.toString(result);
