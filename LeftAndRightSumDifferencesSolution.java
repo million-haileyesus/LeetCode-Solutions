@@ -1,4 +1,4 @@
-class Solution {
+public class LeftAndRightSumDifferencesSolution {
     public int[] leftRigthDifference(int[] nums) {
         int[] left = new int[nums.length];
         int[] right = new int[nums.length];
