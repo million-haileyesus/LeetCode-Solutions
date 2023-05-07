@@ -1,4 +1,4 @@
-class Solution {
+public class RotateImageSolution {
     public void rotate(int[][] matrix) {
         int[][] temp = new int[matrix[0].length][matrix[0].length];
 
