@@ -1,4 +1,4 @@
-class DistributeCandiesSolution {
+public class DistributeCandiesSolution {
     public int distributeCandies(int[] candyType) {
         Arrays.sort(candyType);
         int result = 0;
