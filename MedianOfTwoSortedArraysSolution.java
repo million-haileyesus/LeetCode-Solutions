@@ -3,12 +3,12 @@ public class MedianOfTwoSortedArraysSolution {
         double result = 0;
         int[] sortedArray = merge(nums1, nums2);
         if(sortedArray.length % 2 == 0) {
-            result = sortedArray[sortedArray.length / 2] + 
-                                sortedArray[(sortedArray.length - 1) /2];
+            result = sortedArray[sortedArray.length >> 1] + 
+                                sortedArray[(sortedArray.length - 1) >> 1];
             result /= 2;
         }
         else {
-            result = sortedArray[sortedArray.length / 2];
+            result = sortedArray[sortedArray.length >> 1];
         }
         return result;
     }
